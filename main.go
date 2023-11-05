@@ -1,8 +1,14 @@
 package main
 
-import "github.com/mcharlyb/goinicial/variables"
+import (
+	"fmt"
+
+	"github.com/mcharlyb/goinicial/variables"
+)
 
 func main() {
-	variables.Muestraenteros()
+	estado, texto := variables.ConviertoaTexto(1588)
+	fmt.Println(estado)
+	fmt.Println("el numero es ", texto)
 
 }
