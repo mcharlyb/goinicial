@@ -13,7 +13,7 @@ var Fecha time.Time
 
 func RestoVariables() {
 	Nombre = "Pedro"
-	Sueldo = 1532.65
+	Sueldo = 2750.32
 	Estado = true
 	Fecha = time.Now()
 	fmt.Println(Nombre)
