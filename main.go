@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/mcharlyb/goinicial/variables"
+	"github.com/mcharlyb/goinicial/ejercicios"
 )
 
 func main() {
-	estado, texto := variables.ConviertoaTexto(1588)
-	fmt.Println(estado)
+	numero, texto := ejercicios.ConviertoaNumero("88")
+	fmt.Println(numero)
 	fmt.Println("el numero es ", texto)
 
 }
