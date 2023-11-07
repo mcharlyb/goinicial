@@ -1,11 +1,13 @@
 package main
 
 import (
-	"github.com/mcharlyb/goinicial/ejercicios"
+	"github.com/mcharlyb/goinicial/files"
 )
 
 func main() {
 
-	ejercicios.TablasdeMultiplicar()
+	//files.GrabaTabla()
+	//files.SumaTabla()
+	files.LeerArchivop()
 
 }
